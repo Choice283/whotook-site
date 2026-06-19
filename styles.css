@@ -156,6 +156,27 @@ h1 {
   background: rgba(255, 255, 255, 0.06);
 }
 
+.join-steps {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-top: 28px;
+}
+
+.join-step {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.step-label {
+  font-size: 0.75rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--brand);
+}
+
 .fine-print {
   margin: 16px 0 0;
   color: #8290a3;
